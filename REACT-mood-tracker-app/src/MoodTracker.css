@@ -1,0 +1,88 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #c6a3af;
+  color: #4e4b4c;
+}
+
+.main_container{
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin: 4rem 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin: 0 0 2rem 2rem;
+}
+
+.moods_list{
+  margin: 0 auto;
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #39121f;
+  box-shadow: 25px 30px 30px #383536;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.mood_item{
+  width: 50%;
+  padding: 1.5rem .5rem;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+  color: #968e90;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #74676c;
+  cursor: pointer;
+  letter-spacing: .15em;
+}
+button:hover {
+  opacity: .75;
+}
+
+.history_container{
+  margin: 2rem 0;
+}
+
+ul {
+  margin: 0 auto;
+  list-style:square;
+  font-size: 1.2rem;
+}
+
+
+li {
+  margin-left: .5rem;
+}
+
+b {
+  font-family: inherit;
+  letter-spacing: .15em;
+}
+
+.delete_button {
+  margin-left: 2rem;
+  background-color: #39121f;
+  font-size: .8rem;
+}
